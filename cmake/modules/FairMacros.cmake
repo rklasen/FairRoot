@@ -301,6 +301,7 @@ ELSE(FAIRROOT_FOUND)
     ${CMAKE_SOURCE_DIR}/base/sim
     ${CMAKE_SOURCE_DIR}/base/sink
     ${CMAKE_SOURCE_DIR}/base/source
+    ${CMAKE_SOURCE_DIR}/alignment 
   )
 
   If(WITH_DBASE)
